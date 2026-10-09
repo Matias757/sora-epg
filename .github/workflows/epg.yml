@@ -1,0 +1,43 @@
+name: Actualizar guia
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  guia:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          repository: iptv-org/epg
+          path: epg
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Instalar iptv-org/epg
+        working-directory: epg
+        run: npm ci
+
+      - name: Bajar guia de mi.tv
+        working-directory: epg
+        run: npm run grab -- -c ../sora.channels.xml -o ../guia.xml --days=3
+
+      - name: Convertir y fusionar
+        run: node scripts/convertir.mjs guia.xml epg.json
+
+      - name: Publicar
+        run: |
+          git config user.name "sora-epg-bot"
+          git config user.email "sora-epg-bot@users.noreply.github.com"
+          git add epg.json
+          git diff --cached --quiet || git commit -m "guia $(date -u +%F)"
+          git push

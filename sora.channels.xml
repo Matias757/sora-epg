@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="mi.tv" site_id="ar#26-tv" lang="es" xmltv_id="Canal26.ar@SD">Canal 26</channel>
+  <channel site="mi.tv" site_id="ar#america-2-capital" lang="es" xmltv_id="AmericaTV.ar@SD">America TV</channel>
+  <channel site="mi.tv" site_id="ar#america-24" lang="es" xmltv_id="A24.ar@SD">A24</channel>
+  <channel site="mi.tv" site_id="ar#c5n" lang="es" xmltv_id="C5N.ar@SD">C5N</channel>
+  <channel site="mi.tv" site_id="ar#canal-7-capital" lang="es" xmltv_id="TVPublica.ar@SD">TV Publica</channel>
+  <channel site="mi.tv" site_id="ar#canal-9" lang="es" xmltv_id="ElNueve.ar@SD">Canal 9</channel>
+  <channel site="mi.tv" site_id="ar#cronica" lang="es" xmltv_id="CronicaTV.ar@SD">Cronica</channel>
+  <channel site="mi.tv" site_id="ar#dxtv" lang="es" xmltv_id="DeporTV.ar@SD">DeporTV</channel>
+  <channel site="mi.tv" site_id="ar#el-trece" lang="es" xmltv_id="ElTrece.ar@SD">Canal 13</channel>
+  <channel site="mi.tv" site_id="ar#encuentro" lang="es" xmltv_id="Encuentro.ar@SD">Encuentro</channel>
+  <channel site="mi.tv" site_id="ar#incaa-tv" lang="es" xmltv_id="CineAr.ar@SD">CineAr</channel>
+  <channel site="mi.tv" site_id="ar#la-nacion" lang="es" xmltv_id="LaNacionPlus.ar@SD">LN+</channel>
+  <channel site="mi.tv" site_id="ar#net-tv" lang="es" xmltv_id="NETTV.ar@SD">Net TV</channel>
+  <channel site="mi.tv" site_id="ar#pakapaka" lang="es" xmltv_id="Pakapaka.ar@SD">Pakapaka</channel>
+  <channel site="mi.tv" site_id="ar#tecnopolis" lang="es" xmltv_id="TECTV.ar@SD">TECtv</channel>
+  <channel site="mi.tv" site_id="ar#telefe" lang="es" xmltv_id="Telefe.ar@SD">Telefe</channel>
+  <channel site="mi.tv" site_id="ar#telemax" lang="es" xmltv_id="Telemax.ar@SD">Telemax</channel>
+  <channel site="mi.tv" site_id="ar#tn" lang="es" xmltv_id="TN.ar@SD">TN</channel>
+</channels>
